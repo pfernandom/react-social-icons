@@ -130,7 +130,6 @@ import {
   SocialIcon,
   SocialIconDatabase,
 } from "react-social-icons/build/react-social-icons-lite.js";
-import { SocialIcon } from "react-social-icons/build/react-social-icons-lite";
 
 SocialIconDatabase
    .importNetwork(facebook)
