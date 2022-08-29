@@ -1,7 +1,7 @@
 import ASocialIconLite from './social-icon-lite.js'
-export { SocialIconDatabase } from '../src/config'
+import { SocialIconDatabase } from './social-icon-database'
 export { keyFor } from './networks'
 
 const SocialIcon = ASocialIconLite
 
-export { SocialIcon }
+export { SocialIcon, SocialIconDatabase }

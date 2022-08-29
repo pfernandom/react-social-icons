@@ -2,13 +2,13 @@ import React from 'react'
 import { iconFor, maskFor } from '../src/networks'
 import Icon from '../src/icon'
 import Mask from '../src/mask'
-import { SocialIconLite as SocialIcon, keyFor } from '../src/react-social-icons'
-import { SocialIconDatabase } from '../src/config'
+import { SocialIcon, keyFor } from '../src/react-social-icons-lite.js'
+import { SocialIconDatabase } from '../src/social-icon-database'
 import { facebook, mailto, github, pinterest } from '../src/networks/all.js'
 import Background from '../src/background'
 import { shallow } from 'enzyme'
 
-describe('<SocialIcon />', () => {
+describe('<SocialIcon /> (lite)', () => {
   const url = 'http://pinterest.com'
   let socialIcon
   beforeEach(() => {

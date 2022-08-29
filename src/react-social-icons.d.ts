@@ -1,5 +1,5 @@
 import { FunctionComponent, CSSProperties } from 'react'
-interface SVG {
+export interface SVG {
   icon: string
   mask: string
   color: string
@@ -18,6 +18,12 @@ interface SocialIconProps
   defaultSVG?: SVG
   style?: CSSProperties
 }
+interface SocialIconDatabase {
+  importNetwork: (iconImport: Array<SVG>) => void
+  importNetworks: (iconImport: Array<SVG>) => void
+}
+
 declare const SocialIcon: FunctionComponent<SocialIconProps>
+declare const SocialIconDatabase: SocialIconDatabase
 declare function keyFor(url?: string): string
-export { SocialIcon, SocialIconProps, keyFor }
+export { SocialIcon, SocialIconDatabase, SocialIconProps, keyFor }

@@ -2,7 +2,8 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 
 import * as networks from '../src/networks.js'
-import { facebook, github } from '../src/networks/all.js'
+import facebook from '../src/networks/facebook.js'
+import github from '../src/networks/github.js'
 import {
   SocialIcon,
   SocialIconDatabase,

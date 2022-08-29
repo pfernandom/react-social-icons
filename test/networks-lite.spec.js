@@ -1,5 +1,5 @@
 import { keyFor, iconFor } from '../src/networks'
-import { SocialIconDatabase } from '../src/config'
+import { SocialIconDatabase } from '../src/social-icon-database'
 import { facebook, mailto, github } from '../src/networks/all.js'
 import should from 'should'
 
